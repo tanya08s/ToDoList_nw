@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+header{
+    background-image: url('./tree_background.jpg');
+    width: 100vw;
+    min-height: 45vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+main{
+    width: 40vw;
+    min-height: 40vh;
+    position: absolute;
+    top: 15vh;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    font-size: 2.5rem;
+    color: white;
+    margin: 25px 5px;
+}
+.second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    padding: 3px 6px;
+    margin-top: 4px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 0px 6px;
+    margin-top: 6px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.thirdnfourth{
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: rgb(247, 253, 241);
+}
+.fourth{
+    display: flex;
+    background-color: white;
+    padding: 2px 5px;
+    margin-top: 6px;
+    border-radius: 10px;
+    
+}
+
+
+
+div.second div:nth-child(2){
+    flex-basis: 5%;
+}
+div.fourth div:nth-child(2){
+    flex-basis: 90%;
+    padding: 0px 2px;
+    font-size: 1.2rem;
+    
+}
+div.fourth div:nth-child(1){
+    flex-basis: 10%;
+    
+}
+div.second div:nth-child(1){
+    flex-basis: 95%;
+    padding: 0px 2px;
+}
+
+
+footer{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: absolute;
+    bottom: 0px;
+    font-size: 1.3rem;
+    color: rgb(118, 118, 247);
+    background-color: rgb(244, 231, 231);
+}
+
+img.social_icons{
+    width: 23px;
+    margin: 0px 5px;
+    
+}
